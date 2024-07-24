@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+.item {
+  margin-bottom: 24px;
+  background-color: #f6f6fe;
+  list-style: none;
+}
+.item > h2 {
+  font-weight: 600;
+    font-size: 24px;
+    line-height: 1.3;
+    letter-spacing: 0.04em;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #2e2f42;
+}
+
+.item > ul {
+  padding: 0;
+  margin: 16px;
+}
+
+.item  li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  list-style: none;
+  padding: 8px 16px;
+  margin-bottom: 8px;
+}
+
+/* task-2 */
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  row-gap: 48px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.galleryItem {
+  display: flex;
+}
+
+img {
+  display: block;
+  width: 360px;
+  height: 300px;
+}
+/* task-3 */
+
+#name-input {
+  padding: 8px 140px 8px 16px;
+  text-align: start;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+/* task-4 */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 360px;
+  min-height: 256px;
+}
+
+label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.login-form  input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-top: 8px;
+  min-width: 360px;
+  min-height: 40px;
+}
+
+.login-form > button {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  max-width: 86px;
+  margin-top: 8px;
+  border: none;
+  background-color: #4e75ff;
+}
+
+.login-form>button :hover {
+background-color: #6c8cff;
+}
+
+/* task-5 */
+
+.widget > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+
+.widget > button {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  max-width: 148px;
+  border: none;
+  background-color: #4e75ff;
+}
+
+.widget>button :hover {
+  background-color: #6c8cff;
+}
+
+/* task-6 */
+
+#controls {
+  padding: 32px;
+  margin-bottom: 16px;
+  background-color: #f6f6fe;
+}
+
+#controls > button {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  min-width: 120px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-right: 16px;
+  border: none;
+  background-color: #4e75ff;
+}
+
+#controls > .btn{
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #ff4e4e;
+}
+
+#controls > input {
+  padding: 8px 72px;
+  text-align: center;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+#boxes {
+  display: flex;
+  padding: 32px;
+}
+
+#box {
+  margin-right: 44px;
+}
