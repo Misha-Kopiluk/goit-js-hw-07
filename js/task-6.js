@@ -16,15 +16,14 @@ let sum = 0;
 function createBoxes(amount) {
   sum = 30;
   const el = [];
-  
+  elBoxes.innerHTML = "";
   for (let i = 0; i < amount; i++) {
-    if (amount >= 1 && amount <= 100) {
-      elBoxes.innerHTML = "";
-      el.push(`<div id="box" style="height:${sum}px;width:${sum}px;background-color:${getRandomHexColor()}"></div>`);
-      sum += 10;
-      const box = el.map(elem => elem).join('');
-      elBoxes.insertAdjacentHTML("beforeend", box);
-    }
+    el.push(`<div id="box" style="height:${sum}px;width:${sum}px;background-color:${getRandomHexColor()}"></div>`);
+    sum += 10;
+  }
+  if (amount >= 1 && amount <= 100) {
+    const box = el.map(elem => elem).join('');
+    elBoxes.insertAdjacentHTML("beforeend", box);
   }
   input.value = "";
 }
